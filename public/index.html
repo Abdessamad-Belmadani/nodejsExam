@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/main.js"></script>
+    <title>Tasks</title>
+</head>
+<body>
+    <header>
+        <h1>Tasks</h1>
+        <button id="Refresh">Refresh</button>
+    </header>
+    <main>
+        <div id="form">
+            <h1>Add Task Form</h1>
+            <input type="text" name="task" id="value" required placeholder="Task">
+            <div class="btns">
+                <button type="reset">reset</button>
+                <button type="submit" id="submit">submit</button>
+            </div>
+        </form>
+        <div>
+            <h1>List Of Tasks</h1>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>task</th>
+                        <th>option</th>
+                        <th>order</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
